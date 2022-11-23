@@ -33,7 +33,7 @@ int main(void)
 
     /******************************************************/
     /* Now, run Prim and print the results                */
-    int startNumber=1;    // pick a vertext to start, you can change this
-    MST_Prim(vertices, startNumber);
+    int startNumber=3;    // pick a vertext to start, you can change this
+    MST_Prim(vertices, startNumber, countVertices);
     /******************************************************/
 }
